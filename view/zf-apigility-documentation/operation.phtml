@@ -26,7 +26,7 @@ $collapseId     = $this->escapeHtmlAttr(sprintf('ops-collapse-%s-%s%s', $service
                         <tr>
                             <th>Field</th>
                             <th>Description</th>
-                            <th class="center-block">Required</th>
+                            <th style="text-align: center;">Required</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -34,7 +34,7 @@ $collapseId     = $this->escapeHtmlAttr(sprintf('ops-collapse-%s-%s%s', $service
                         <tr>
                             <td><?php echo $this->escapeHtml($field->getName()) ?></td>
                             <td><?php echo $this->escapeHtml($field->getDescription()) ?></td>
-                            <td class="center-block"><span class="badge"><?php echo ($field->isRequired()) ? 'YES' : 'NO' ?></td>
+                            <td style="text-align: center;"><span class="badge"><?php echo ($field->isRequired()) ? 'YES' : 'NO' ?></td>
                         </tr>
                     <?php endforeach ?>
                     </tbody>
