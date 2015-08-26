@@ -57,6 +57,7 @@ return array(
         'invokables' => array(
             'agacceptheaders'      => 'ZF\Apigility\Documentation\View\AgAcceptHeaders',
             'agcontenttypeheaders' => 'ZF\Apigility\Documentation\View\AgContentTypeHeaders',
+            'agescapehtml'         => 'ZF\Apigility\Documentation\View\AgEscapeHtml',
             'agservicepath'        => 'ZF\Apigility\Documentation\View\AgServicePath',
             'agstatuscodes'        => 'ZF\Apigility\Documentation\View\AgStatusCodes',
         ),
